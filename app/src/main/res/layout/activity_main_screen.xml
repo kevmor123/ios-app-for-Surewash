@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorWhite"
+    tools:context="com.example.kevin.surewash.main_screen">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main_screen" />
+
+    <!--QR button Layout-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/qrButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginBottom="@dimen/floating_buttons_margin_bottom"
+        android:layout_above="@+id/textScan"
+        android:layout_marginLeft="@dimen/floating_buttons_margin_sides"
+        android:src="@drawable/qr"
+        android:background="#2402BE" />
+
+    <!--Log Out Button Layout-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="@dimen/floating_buttons_margin_bottom"
+        android:layout_above="@+id/textLogOut"
+        android:layout_marginRight="@dimen/floating_buttons_margin_sides"
+        android:src="@drawable/logout1"
+        android:background="#2402BE" />
+
+    <!--Settings button Layout-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/settingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_above="@+id/settingsText"
+        android:layout_marginBottom="@dimen/floating_buttons_margin_bottom"
+        android:src="@drawable/settings"
+        android:background="#3d1ad9" />
+
+
+</android.support.design.widget.CoordinatorLayout>

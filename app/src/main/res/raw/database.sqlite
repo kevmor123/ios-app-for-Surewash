@@ -1,0 +1,55 @@
+CREATE TABLE `questions` (
+    _id INTEGER AUTO INCREMENT PRIMARY KEY,
+    `question` VARCHAR(256),
+    `correct_answer` VARCHAR(32) NOT NULL,
+    `wrong_answer_1` VARCHAR(32) NOT NULL,
+    `wrong_answer_2` VARCHAR(32) NOT NULL,
+    `wrong_answer_3` VARCHAR(32) NOT NULL,
+    `wrong_answer_4` VARCHAR(32) DEFAULT NULL,
+    `wrong_answer_5` VARCHAR(32) DEFAULT NULL,
+    `wrong_answer_6` VARCHAR(32) DEFAULT NULL,
+    `wrong_answer_7` VARCHAR(32) DEFAULT NULL,
+    `difficulty` CHARACTER NOT NULL DEFAULT 'e',
+    `category` CHARACTER NOT NULL DEFAULT 'Z'
+);
+
+
+-- Add some questions for debugging
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `wrong_answer_4`, `wrong_answer_5`, `category`)
+VALUES("Clostridium difficile spores are removed from the hands by", "Soap and Water", "Alcohol hand rub", "Metronidaz", "All of these", "Answer 5", "Non of the above", 'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("When should alcohol hand rubs not be used?", "If hands are physically soiled", "After taking off gloves",  "when caring for patients with infections", "Prior ro aspectic technique", 'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("Which statement is false?",  "There is no need to wash you hands if you have been wearing gloves", "Proper hand washing can help to prevent contamination", "You should avoid wearing rings, particularly with ridges or stones", "Paper towels should be in wall-mounted dispensers located close to hand washing facilities", 'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `wrong_answer_4`, `wrong_answer_5`, `category`)
+VALUES("When should you wash your hands to reduce the risk of infectious agents being transmitted?", "All of these", "After a dirty procedure, even if gloves were worn", "Between care episodes for one patient", "Between different patients",  "none ","hi  " ,'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("Hand hygiene prevents which type of transmission of infection?",  "Contact", "Airborne", "Droplet", "Vector", 'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("Which areas of the hands are commonly missed when washing your hands?",  "Fingertips", "Palms", "Wrists", "Fingernails", 'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("Why do we need to wash our hands?",  "To protect our patients and ourselves", "To protect our patients", "To protect ourselves", "To protect the world" ,  'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("How often does the average person touch their face per hour?", "16 times", "12 times", "7 times", "2 times", 'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("How important is using moisturiser in a part of hand hygiene?", "Very important", "Kind of important", "Not really important", "It's bad for you", 'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("When sanitising hands it is necessary to follow the seven stage technique?", "Yes", "Kind of", "No not at all", "Never",'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("Why is it important to let your hands dry properly?","All of these", "Moisture left on hands might cause the skin to become dry and cracked", "Wet surfaces transfer micro-organisms more effectively than dry ones", "Micro-organisms multiply more rapidly on wet hands", 'G');
+
+INSERT INTO `questions` (`question`, `correct_answer`, `wrong_answer_1`, `wrong_answer_2`, `wrong_answer_3`, `category`)
+VALUES("Which of the following is regarded as being one of the Five Moments for hand hygiene?","All of these", "Before patient contact", "Before an aseptic procedure", "After exposure to bodily fluids", 'G');
+
+
+

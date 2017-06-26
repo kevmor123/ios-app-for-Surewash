@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:weightSum="1">
+
+    <ImageView android:src="@drawable/surewashlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!--Quiz Text Layout-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textQuiz"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:text="@string/Quiz" />
+
+    <!--Question Layout Layout-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Question"
+        android:gravity="center"
+        android:id="@+id/tv_question"
+        android:layout_gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:maxLines="4"/>
+    <!--All of the answer buttons-->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hmm.. 0?"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/btn_option_1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="One?"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/btn_option_2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorAccent"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Two?"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/btn_option_3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/colorAccent"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Maybe 4?"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/btn_option_4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20dp" />
+</LinearLayout>

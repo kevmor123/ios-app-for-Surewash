@@ -1,0 +1,7 @@
+Download Android Studio
+Connect an Android Device to the Computer
+Open the file on android studio and run it on the phone.
+
+
+Software Dependecies:
+Android Studio

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Surewash</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_learned"></string>
+    <string name="action_settings">Settings</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_verify">Verify Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Between 4 and 10 characters</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_incorrect_email">This email is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="create_account">No account yet? Create one</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--Strings related to Reigster and Success Page-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="verify">Verify Password</string>
+
+    <string name="already">Already a member? Login</string>
+    <string name="username">Username</string>
+    <string name="welcome">WELCOME</string>
+    <string name="is_login">You have been successfully login </string>
+
+    <!--Strings related to Main Page-->
+    <string name="title_activity_main_screen">Surewash</string>
+    <string name="about_us">About Us</string>
+    <string name="info_about">The aims of SureWash are to vastly improve hand hygiene
+        in hospital wards and to make training and compliance much less labour intensive.
+        It was developed in Trinity College, Dublin
+        \nThe SureWash product range helps hospitals to implement the World Health Organisation (WHO)
+        hand hygiene improvement strategy by ensuring that hand hygiene training, evaluation and feedback
+        is accessible to staff, 24-7.</string>
+
+    <string name="quiz">Click to Play</string>
+    <string name="agree_to_terms">Do you agree to the terms and conditions?</string>
+    <string name="register">Register</string>
+    <string name="creating_account">Creating an Account</string>
+    <string name="qr_scan">SCAN</string>
+    <string name="settings">SETTINGS</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!---Strings related to quiz-->
+    <string name="play">Play</string>
+    <string name="Quiz">Question 1</string>
+    <string name="title_activity_success">Success</string>
+</resources>
