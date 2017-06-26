@@ -1,0 +1,2 @@
+# ios-app-for-Surewash
+An app which could scan the QR codes from the website and output the information they held, the app should also allow users to login or allow new users to register their detail which would be stored back within the database. If possible the app should also allow the users to take a short quiz on hand hygiene based on some questions given to use by our client. We decided to write the app for android and the questions were written using XML.
